@@ -130,14 +130,14 @@ class ThingsboardAppState extends State<ThingsboardApp> with TickerProviderState
         systemNavigationBarIconBrightness: Brightness.light
     ));
     return MaterialApp(
-      title: 'ThingsBoard',
+      title: 'Nibiaa',
         themeMode: ThemeMode.light,
         home: TwoPageView(
           controller: _mainPageViewController,
           first: MaterialApp(
             key: mainAppKey,
             scaffoldMessengerKey: appRouter.tbContext.messengerKey,
-            title: 'ThingsBoard',
+            title: 'Nibiaa',
             theme: tbTheme,
             themeMode: ThemeMode.light,
             darkTheme: tbDarkTheme,
@@ -147,7 +147,7 @@ class ThingsboardAppState extends State<ThingsboardApp> with TickerProviderState
           second: MaterialApp(
             key: dashboardKey,
             // scaffoldMessengerKey: appRouter.tbContext.messengerKey,
-            title: 'ThingsBoard',
+            title: 'Nibiaa',
             theme: tbTheme,
             themeMode: ThemeMode.light,
             darkTheme: tbDarkTheme,
